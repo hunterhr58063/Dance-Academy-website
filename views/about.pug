@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include  ../static/style.css 
+        include  ../static/about.css 
+
+block content   
+    div.conatiner
+        h1  The Dance Academy Programs For You
+        section#about       
+            div.first
+                h4  ONE YEAR DANCE CERTIFICATION PROGRAM
+                div.first-box
+                    div.first-img
+                        img(src="/static/about/david-hofmann-POd35V_uE4k-unsplash.jpg")
+
+                    div.first-content   
+                        p This program is a full time course for one year that helps potential dancers nurture their skills in a professional environment. Shiamak actively teaches at the OYP and monitors their progress through the year. The OYP is a part of Shiamak’s mission to help dance enthusiasts make their passion a profession.
+
+            div.first
+                h4 ONE YEAR DANCE CERTIFICATION PROGRAM FOR JUNIORS
+                div.first-box
+                    div.first-img
+                        img(src="/static/about/patricia-palma-OaAB-eYwmUU-unsplash.jpg")
+
+                    div.first-content   
+                        p JOY is a one year program for children between the age of seven to fourteen to get practical and theoretical understanding of various dance styles. One year of training lays a strong foundation for these dance enthusiasts and opens opportunities in the field of the performing arts.            
+            
+            div.first
+                h4  HALF YEARLY PROGRAM 
+                div.first-box
+                    div.first-img
+                        img(src="/static/about/hudson-hintze-pzgn0feLJwg-unsplash.jpg")
+
+                    div.first-content   
+                        p This six month program is designed for dance enthusiasts between ages 15 to 28 who wish to expand their knowledge base and gain a greater perspective in various dance styles. Classes are taught by Shiamak’s expert faculty and visiting guest teachers from across the world.           
+
+                    

@@ -1,0 +1,43 @@
+/* h1{
+    text-align: center;
+    margin: -1px 0;
+    color:silver;
+} */
+.myInput{
+    font-size: 16px;
+    width: 45%;
+    padding: 10px;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+   height: 35px;
+   width: 100px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   cursor: pointer;
+
+}
+.btn1:hover{
+  background-color: black;
+   color: silver;
+ }
+
+ .container{
+    height: 670px;
+    width: 100vw;
+    background: url('/static//image/party_people_background_0410.jpg')no-repeat center center/cover;
+  }
+   

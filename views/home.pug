@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include  ../static/style.css 
+           
+block content         
+    
+    section#introsection         
+        h1  Welcome to Dance Academy
+        div.small  Eat Sleep Dance Repeat
+
+    section#missionsection        
+        h3 Our Mission   
+        div.card
+            h4  Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/image/—Pngtree—silhouettes of black hip-hop dance_4180820.png")
+
+                div.card-content   
+                    p This is the best Dance Academy of India.
+
+        div.card 
+            h4  Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/image/jd3ah9ik2fn3hnrdo97ikpso1h.png ")
+
+                div.card-content   
+                    p This is the best Dance Academy of India.
+
+        div.card 
+            h4  Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/image/kisspng-belly-dance-silhouette-tribal-fusion-5afcfd4b318a00.1602071415265293552029.png")
+
+                div.card-content   
+                    p This is the best Dance Academy of India.
+
+        div.line
+            p.small  Those Who Live AND  DIE FOR DANCE JOIN US
+
+    section#sponsorssection  
+    a.btn(href='/contact')  JOIN US   
+
+     
